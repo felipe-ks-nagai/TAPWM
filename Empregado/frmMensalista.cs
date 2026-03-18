@@ -44,7 +44,7 @@ namespace Empregado
                 "\nMatrícula = " + objMensalista.Matricula +
                 "\nTempo trabalho = " + objMensalista.TempoTrabalho() +
                 "\nSalário final = " + objMensalista.SalarioBruto().ToString("N2"));
-                )
         }
     }
 }
+
