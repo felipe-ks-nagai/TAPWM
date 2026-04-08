@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #dcdcdc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Container for the buttons */
+button {
+    border: none;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Hover effect */
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.3);
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    button img {
+        width: 80px;
+        height: 80px;
+    }
+    button {
+        margin: 5px;
+    }
+}
