@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>Insira os dados e coloque sua opiniao</p>
+    <p>Ótimo = 4, Bom = 3, Regular = 2, Péssimo = 1</p>
+    <input type="number" placeholder="idade" id="idade"/>
+    <select id="sexo">
+        <option value="">Selecione o sexo</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+    </select>
+    <select id="opiniao">
+        <option value="">Selecione uma opinião</option>
+        <option value="4">Ótimo</option>
+        <option value="3">Bom</option>
+        <option value="2">Regular</option>
+        <option value="1">Péssimo</option>
+    </select>
+    <br>   <br>
+    <button onclick="adicionarUsuario()">Adicionar</button>
+    <br>
+       <br>
+    <button onclick="calcular()">Submitar</button>
+</body>
+</html>
