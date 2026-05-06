@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula">
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone">
+        <br>
+        <label for="funcao">Função:</label>
+        <input type="text" id="funcao" name="funcao">
+        <br>
+        <label for="forma">Forma de criação:</label>
+        <select name="forma" id="forma">
+            <option value="">Selecione a forma de criação do objeto</option>
+            <option value="1">New Object()</option>
+            <option value="2">{}</option>
+            <option value="3">{propriedade: valor}</option>
+        </select>
+        <br>
+        <button type="submit" onclick="Forma()">Salvar</button>
+
+        <div class="saida">
+            <h1 id="saida"></h1>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
